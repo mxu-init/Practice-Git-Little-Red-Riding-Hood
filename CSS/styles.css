@@ -30,3 +30,33 @@ header {
     max-width: 80%; 
     margin: 0 auto; 
 }
+
+article { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 30px; 
+    background: white; 
+    padding: 30px; 
+    margin-bottom: 30px; 
+    border-radius: 12px;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05); 
+}
+
+.text-chapter h2 {
+    margin-top: 0;
+    color: #b22222; 
+}
+
+.chapter_image {
+    display: flex;             
+    justify-content: center;   
+    align-items: center;
+}
+
+.chapter_image img {
+    max-width: 100%;    
+    width: 375px;       
+    border-radius: 8px;
+    display: block;
+}
