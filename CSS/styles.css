@@ -20,46 +20,9 @@ p{
     font-family: Arial, sans-serif;
 }
 
-/* Barra superior */
 
 .header {
     width: 100%;
     background-color: #131921;
     padding: 10px 20px;
-}
-
-/* Menú */
-
-.menu {
-    display: flex; /* Mirar cómo va lo del display flex exactamente */
-    justify-content: space-between;
-    align-items: center;
-    margin: 20px auto 0px;
-
-    /* max-width: 1000px;
-    background-color: green; */
-}
-
-/* Botones */
-
-.item{
-    flex: 1;
-    text-align: center;
-    margin: 0 10px;
-    padding: 12px 0; /* Primer valor: arriba-abajo. Segundo: Izquierda-derecha */
-    background-color: #232f3e;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    transition: all 0.25s ease;
-}
-
-.item:hover {
-    background-color: red;
-    transform: translateY(-7px);
-
-}
-
-.item:active {
-    transform: translateY(0px);
 }
