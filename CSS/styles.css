@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+    margin: 0; 
+    padding: 20px; 
+    background-color: #f4f4f4; 
+    color: #333;
+}
+
+header { 
+    text-align: center; 
+    margin-bottom: 40px; 
+}
+
+.cover_container {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cover_container img {
+    height: 400px;     
+    width: auto;       
+    max-width: 100%;   
+    display: block;
+    margin: 0 auto;    
+    border-radius: 12px;
+}
+
+.tale-container { 
+    max-width: 80%; 
+    margin: 0 auto; 
+}
